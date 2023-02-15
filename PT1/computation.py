@@ -4,13 +4,13 @@ def tuitionComp(studInfo):
         firstPayment = int(input("First Payment: "))
         balance = 12500 - firstPayment
 
-        print("\n",studInfo[1],",",studInfo[3],",",studInfo[2],",",studInfo[4],". Balance: ",balance)
+        print(studInfo[1] + ", " + studInfo[3] + ", " + studInfo[2] + studInfo[4] + ". Balance: ", balance)
 
     elif studInfo[0] == "BSCS":
         firstPayment = int(input("First Payment: "))
         balance = 13500 - firstPayment
 
-        print("\n",studInfo[1],",",studInfo[3],",",studInfo[2],",",studInfo[4],". Balance: ",balance)
+        print(studInfo[1] + ", " + studInfo[3] + ", " + studInfo[2] + studInfo[4] + ". Balance: ", balance)
    
     else:
         print("Invalid")
